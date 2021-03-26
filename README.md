@@ -29,7 +29,7 @@ To run the tests you can use the following command:
 To run the application you can use the following command:
 
 ```gradle
-./gradlew run
+./gradlew run --args="-d ABB -f build/output/my.json"
 ```
 
 ## Useful Commands

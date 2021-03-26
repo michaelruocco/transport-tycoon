@@ -12,6 +12,7 @@ plugins {
     id "java-library"
     id "java-test-fixtures"
     id "jacoco"
+    id "application"
     id "com.diffplug.spotless" version "5.11.0"
     id "com.github.ben-manes.versions" version "0.38.0"
     id "pl.allegro.tech.build.axion-release" version "1.12.1"
@@ -83,6 +84,10 @@ tasks.withType(Test) {
         exceptionFormat "full"
         showStandardStreams true
     }
+}
+
+application {
+    mainClass = 'uk.co.mruoc.transport.Main'
 }
 
 jacoco {
