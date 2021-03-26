@@ -13,7 +13,7 @@
 ## Overview
 
 This repo contains my attempt at these
-[https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md](transport tycoon exercises).
+[transport tycoon exercises](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md).
 
 ## Running the tests
 
